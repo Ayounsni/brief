@@ -109,10 +109,10 @@ section{
 }
 
 
-.home2 input, .home2 textarea {
+.home2 input {
 	font-size: 17px;
-	display: inline-block;
 	width: 100%;
+	display: inline-block;
 	padding: 20px 150px 20px 30px;
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
 	outline: none;
@@ -120,11 +120,36 @@ section{
 	border-radius: 15px;
 	resize: none;
 }
+.home2 textarea{
+	font-size: 17px;
+	display: inline-block;
+	width: 100%;
+	padding: 20px 15px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+	resize: none;
+
+}
+.home2 h2{
+	text-align: center;
+} 
+
 
 .home2 input[type="submit"]{
 	background-color: #1067cc;
 	padding: 5%;
+	color: #fff;
 	margin-top: 20px;
+	 cursor: pointer; 
+}
+.home2 input[type="submit"]:hover{
+	transition: ease .40s;
+	background-color: #43d127;
+	padding: 5%;
+	margin-top: 20px;
+
 }
 
  .home2 h2 {
