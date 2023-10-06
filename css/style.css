@@ -36,7 +36,7 @@ header{
 	transition: ease .40s;
 }
 .header2{
-	position: fixed;
+	position:fixed;
 	top: 0;
 	right: 0;
 	width: 100%;
@@ -48,6 +48,7 @@ header{
 	padding: 30px 18%;
 	transition: ease .40s;
 }
+
 .logo{
 	font-size: 35px;
 	font-weight: 600;
@@ -101,11 +102,11 @@ section{
 
 .home2 form {
 	max-width: 100%;
-	width: 400px;
+	width: 500px;
 	position: relative;
 	font-size: 12px;
-	margin-left: 300px;
-	margin-top: 80px;
+	margin-left: 350px;
+	margin-top: 70px;
 }
 
 
@@ -485,7 +486,12 @@ header.sticky{
 }
 
 @media (max-width: 1400px){
+	
 	header{
+		padding: 17px 3%;
+		transition: .2s;
+	}
+	.header2{
 		padding: 17px 3%;
 		transition: .2s;
 	}
